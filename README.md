@@ -1,5 +1,5 @@
 # Project Name
-> Cine is a movie search app built with React that uses the TMDB(The Movie Database) API to search for and display data
+> Cine is a movie search app built with React that uses the TMDB(The Movie Database) API to search for and display data. Demo: https://cineproject-9d016.web.app/
 
   * New releases section showing the most popular movies released recently
   * A search bar allowing the user to search for a movie by title
