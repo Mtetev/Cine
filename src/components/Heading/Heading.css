@@ -1,0 +1,121 @@
+.heading {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+
+	text-align: center;
+}
+
+.logo {
+	width: 100%;
+}
+
+.api {
+	margin-top: -10px;
+	margin-bottom: 10px;
+
+	font-size: 1.25rem;
+}
+
+.tmdb {
+	display: inline;
+
+	transition: color 0.4s;
+	-o-transition: color 0.4s;
+	-webkit-transition: color 0.4s;
+	-moz-transition: color 0.4s;
+}
+
+.api:hover .tmdb {
+	color: rgb(1, 210, 119);
+}
+
+.logo__image{
+	max-height: 5rem;
+
+	margin-top: 10px;
+	padding-top: 10px;
+
+	animation: tilt-out 0.4s ease-in forwards;
+	-o-animation: tilt-out 0.4s ease-in forwards;
+	-webkit-animation: tilt-out 0.4s ease-in forwards;
+	-moz-animation: tilt-out 0.4s ease-in forwards;
+}
+
+.logo__link:hover .logo__image {
+	animation: tilt-in 0.4s ease-in forwards;
+	-o-animation: tilt-in 0.4s ease-in forwards;
+	-webkit-animation: tilt-in 0.4s ease-in forwards;
+	-moz-animation: tilt-in 0.4s ease-in forwards;
+}
+
+.logo__title {
+	display: inline-block;
+
+	margin: 0px 5px;
+
+	font-size: 5rem;
+
+	transition: color 0.4s;
+	-o-transition: color 0.4s;
+	-webkit-transition: color 0.4s;
+	-moz-transition: color 0.4s;
+}
+
+.logo__link:hover .logo__title {
+	color: rgb(50, 150, 255);
+}
+
+@keyframes tilt-in {
+	100% {
+		transform: rotate(-15deg) translateZ(0);
+	}
+}
+@-o-keyframes tilt-in {
+	100% {
+		-o-transform: rotate(-15deg)  translateZ(0);
+	}
+}
+@-webkit-keyframes tilt-in {
+	100% {
+		-webkit-transform: rotate(-15deg)  translateZ(0);
+	}
+}
+@-moz-keyframes tilt-in {
+	100% {
+		-moz-transform: rotate(-15deg)  translateZ(0);
+	}
+}
+
+@keyframes tilt-out {
+	0% {
+		transform: rotate(-15deg) translateZ(0);
+	}
+	100% {
+		transform: rotate(0deg) translateZ(0);
+	}
+}
+@-o-keyframes tilt-out {
+	0% {
+		transform: rotate(-15deg) translateZ(0);
+	}
+	100% {
+		-o-transform: rotate(-25deg)  translateZ(0);
+	}
+}
+@-webkit-keyframes tilt-out {
+	0% {
+		transform: rotate(-15deg) translateZ(0);
+	}
+	100% {
+		-webkit-transform: rotate(-25deg)  translateZ(0);
+	}
+}
+@-moz-keyframes tilt-out {
+	0% {
+		transform: rotate(-15deg) translateZ(0);
+	}
+	100% {
+		-moz-transform: rotate(-25deg)  translateZ(0);
+	}
+}

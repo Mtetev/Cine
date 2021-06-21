@@ -1,0 +1,40 @@
+.MovieContainer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.LoadingList {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+
+	margin-top: 5rem;
+}
+
+.LoadingList img {
+	margin-right: 1rem;
+
+	width: 3rem;
+	height: 3rem;
+}
+
+.LoadingList div{
+	align-self: flex-end;
+
+	font-size: 2.5rem;
+	
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+	.MovieContainer {
+		margin-left: 3rem;
+		margin-right: 3rem;
+	}
+
+}
