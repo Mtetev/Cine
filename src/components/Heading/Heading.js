@@ -7,7 +7,7 @@ import "./Heading.css";
 
 const Heading = () => {
 	return (
-		<header className="heading">>
+		<header className="heading">
 			<div className="logo">
 				<Link className="logo__link" to="/">
 					<img className="logo__image" src={ LogoImage } alt="logo"></img>
